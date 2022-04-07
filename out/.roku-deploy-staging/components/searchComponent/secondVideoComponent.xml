@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="secondVideoComponent" extends="Group">
+    <script type="text/brightscript" uri="secondVideoComponent.brs" />
+    <interface>
+
+        <field id="itemContent" type="node" onChange="setContent2" />
+        
+    </interface>
+    <children>
+        
+            <Video
+            id="secondVideo"
+            height="200"
+            width="300"
+            translation="[5,-10]"
+            />
+        
+    </children>
+</component>

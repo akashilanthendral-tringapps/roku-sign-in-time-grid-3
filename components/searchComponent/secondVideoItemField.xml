@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="secondVideoItemField" extends="ContentNode">
+    <interface>
+        <field id="secondVideoUrl" type="string" />
+        <field id="secondVideoTitle" type="String"/>
+        <field id="secondVideoStreamFormat" type="String"/>
+        <field id="secondVideoControl" type="String"/>
+        <field id="increaseSecondVideoSize" type="String"/>
+    </interface>
+</component>

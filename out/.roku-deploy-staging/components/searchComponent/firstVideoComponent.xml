@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="firstVideoComponent" extends="Group" initialFocus="firstVideo">
+    <script type="text/brightscript" uri="firstVideoComponent.brs" />
+    <interface>
+        <field id="itemContent" type="node" onChange="setContent" />
+    </interface>
+    <children>
+        
+            <Video
+            id="firstVideo"
+            height="410"
+            width="600"
+            translation="[-30,0]"
+            />
+        
+    </children>
+</component>

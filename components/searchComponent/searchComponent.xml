@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="searchComponent" extends="Group" initialFocus="firstVideoMUG">
+    <script type="text/brightscript" uri="searchComponent.brs" />
+    <interface>
+        <field id="setFocus" type="boolean" onChange="onSetFocus" alwaysNotify="true" />
+    </interface>
+    <children>
+        
+        <LayoutGroup id="outerLayoutGroup" translation="[250, 300]" layoutDirection="horiz" itemSpacings="[20]">
+            <MarkupGrid id="firstVideoMUG" 
+             itemComponentName="firstVideoComponent"
+             numColumns="1"
+             numRows="1" 
+             itemSize="[540, 410]" 
+             translation="[300, 400]"
+            />
+            <Rectangle translation="[290, 410]" color="#006994" width="1015" height="440">
+                <MarkupGrid id="secondVideoMUG"
+                itemComponentName="secondVideoComponent"
+                numColumns="3"
+                numRows="2" 
+                itemSize="[305, 180]" 
+                itemSpacing = "[50, 50]"
+                translation="[0, 10]"
+                drawFocusFeedback="true"
+                vertFocusAnimationStyle="floatingFocus"
+                />
+            </Rectangle>
+            
+
+        </LayoutGroup>
+        
+        
+    </children>
+</component>
